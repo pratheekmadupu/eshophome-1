@@ -1,2 +1,167 @@
-<h1>hello world<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Base Business</title>
+  <link rel="stylesheet" href="sty.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
 
+    header {
+      background-color: ;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      float: left;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('images/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .categories {
+      padding: 60px 30px;
+      background: transparent;
+      text-align: center;
+    }
+
+    .categories h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .category-card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      color: #000;
+    }
+
+    .category-card img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .category-card h3 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .category-card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .view-btn {
+      background: #007BFF;
+      color: white;
+      padding: 10px 18px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .view-btn:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: -1;"></div>
+
+  <header>
+    <a href="sicon.html">← Back to Home</a>
+    <h1>Product Base Business</h1>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Our Marketplace</h1>
+    <p>Browse our products and reserve your favorite now!</p>
+  </section>
+
+  <section class="categories">
+    <h2>Explore Our Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <img src="../images/civil.jpg" alt="Civil Engineering">
+        <h3>Civil Engineering</h3>
+        <p>Explore detailed construction projects, structures, and innovations.</p>
+        <a href="index1.html" class="view-btn">View Details</a>
+      </div>
+
+      <div class="category-card">
+        <img src="../images/film.jpg" alt="Filmmaking">
+        <h3>Filmmaking</h3>
+        <p>Dive into the world of cinema, projects, direction, and production insights.</p>
+        <a href="index2.html" class="view-btn">View Details</a>
+      </div>
+
+      <div class="category-card">
+        <img src="../images/products.jpg" alt="Product-Based Business">
+        <h3>Product-Based Business</h3>
+        <p>Browse and book amazing products available for purchase.</p>
+        <a href="index3.html" class="view-btn">View Details</a>
+      </div>
+
+      <div class="category-card">
+        <img src="../images/posters.jpg" alt="Ads & Posters">
+        <h3>Ads & Poster Making</h3>
+        <p>Check out our advertisement and poster design services and examples.</p>
+        <a href="index4.html" class="view-btn">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 SICON ENTERPRISES</footer>
+</body>
+</html>
